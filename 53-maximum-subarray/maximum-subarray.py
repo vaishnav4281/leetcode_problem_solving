@@ -6,5 +6,5 @@ class Solution:
             if currSum < 0:
                 currSum = 0
             currSum += num
-            maxSum = max(maxSum, currSum)
+            maxSum = max(currSum, maxSum)
         return maxSum
